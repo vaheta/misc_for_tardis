@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/master/Documents/mylibs/imresfun/imresfun.cpp
+vector
+-
+stdio.h
+-
+opencv2/opencv.hpp
+-
+sstream
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+dirent.h
+-
+

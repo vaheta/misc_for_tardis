@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( imresfun )
+find_package( OpenCV REQUIRED )
+add_executable( imresfun imresfun.cpp )
+target_link_libraries( imresfun ${OpenCV_LIBS} )
